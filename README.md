@@ -1,1 +1,2 @@
 # odin-recipes
+This is my first project of The Odin Project. In this project, I will apply all of the HTML skills I have acquired by building a basic recipe website. The goal of this project is to help me develop a solid understanding of HTML and web development.
