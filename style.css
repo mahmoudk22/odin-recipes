@@ -26,6 +26,27 @@ body {
     box-shadow: 0 0 5px rgba(0,0,0,0,3);
 }
 
+.button-dawali,
+.button-mansaf,
+.button-molokhia {
+    transition: background-color 0.3s ease-out, box-shadow 0.3s ease-out;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .button-list li {  
     margin-bottom: 10px;
 }
